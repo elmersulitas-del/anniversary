@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fil">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#451221" />
+  <meta name="description" content="A little surprise, just for you, Adi." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>For you, Adi ♥</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to our story</a>
+  <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+    <div class="welcome-inner">
+      <p class="eyebrow">FOR MY FAVORITE PERSON</p>
+      <div class="intro-number" aria-hidden="true">06<span>years of us</span></div>
+      <h1 id="welcome-title">Psst… <em>Adi.</em></h1>
+      <p>May maliit akong surprise para sa’yo.</p>
+      <button class="button pale" id="unwrap">Buksan mo ♡</button>
+      <p class="tiny">Made with love. Para sa’yo lang.</p>
+    </div>
+  </section>
+  <div id="site" hidden>
+    <header class="topbar"><a href="#main" class="wordmark" aria-label="Adi home">adi<span>♡</span></a><nav aria-label="Main navigation"><a href="#memories">Our moments</a><a href="#letter">My letter</a></nav><span class="edition">CHAPTER 06</span></header>
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy"><p class="eyebrow">SIX YEARS. STILL YOU.</p><h1 id="hero-title">Happy 6th<br>Anniversary,<br><em>Adi ko.</em></h1><p class="hero-note">Ang bilis ng panahon.<br>Pero sa lahat ng nagbago, ikaw pa rin. ♡</p><a class="button pale" href="#memories">Balikan natin?</a><span class="hero-caption">A LITTLE CORNER OF THE WORLD, JUST FOR US.</span></div>
+        <figure class="hero-photo"><img src="/photos/15.webp" alt="Magkahawak-kamay sa studio, parehong naka-red." width="1344" height="1882" fetchpriority="high" /><figcaption>my favorite kind of together.</figcaption><span class="photo-mark" aria-hidden="true">6<br><small>years & counting</small></span></figure>
+      </section>
+      <section class="intro section-pad"><p class="eyebrow">IKAW. AKO. TAYO.</p><h2>Hindi man laging bongga,<br><em>basta kasama kita.</em></h2><p>Sa simpleng lakad, sa kulit, sa tawanan.<br>Ang dami nating moments na ang sarap balikan.</p></section>
+      <section class="memories section-pad" id="memories" aria-labelledby="memories-title"><div class="section-heading"><div><p class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</p><h2 id="memories-title">Us, in <em>little frames.</em></h2></div><p>Tap a photo. Stay a little longer.</p></div><div id="gallery" class="gallery"></div></section>
+      <section class="letter-section section-pad" id="letter" aria-labelledby="letter-title"><div class="letter-intro"><p class="eyebrow">A FEW WORDS, JUST FOR YOU</p><h2 id="letter-title">May sasabihin<br>lang ako, <em>Adi.</em></h2><p>Medyo mahaba. Pero basahin mo hanggang dulo, ha? ♡</p></div><div class="letter-wrap"><button class="letter-cover" id="open-letter" aria-expanded="false" aria-controls="letter-body"><span class="eyebrow">TO MY ADI</span><span class="seal" aria-hidden="true">♡</span><span class="script">Mahal na mahal kita.</span><span class="open-label">Tap to open my letter</span></button><article id="letter-body" class="letter-body" hidden><p class="eyebrow">HAPPY SIXTH, MY LOVE</p><h3>Adi kooo,</h3><div id="letter-text"></div><p class="signature">Always, your Adi. ♡</p><button class="text-button" id="close-letter">Fold the letter</button></article></div></section>
+      <section class="ending section-pad"><p class="eyebrow">AND FOR ALL THE YEARS TO COME</p><h2>Ikaw pa rin.<br><em>Ikaw palagi.</em></h2><p>Happy 6th Anniversary, Adi ko. ♡</p><button class="button pale" id="one-more">Isa pang surprise?</button><div id="last-note" hidden aria-live="polite"><p>Yung regalo mo… wait mo lang, ha?</p><p class="script">Sulit ang paghihintay. Promise. ♡</p><p>At yung mga gala natin? Matutuloy din! HAHAHAHAHA.</p></div></section>
+    </main>
+    <footer><span class="wordmark">adi♡</span><p>Six years of us. So much more to come.</p><button class="text-button" id="replay">Replay the surprise ↺</button></footer>
+  </div>
+  <dialog id="lightbox" aria-label="Photo viewer"><button class="viewer-close" id="viewer-close" aria-label="Close photo">×</button><div class="viewer-stage"><button id="previous-photo" aria-label="Previous photo">‹</button><img id="viewer-image" alt="" /><button id="next-photo" aria-label="Next photo">›</button></div><p id="viewer-caption" aria-live="polite"></p></dialog>
+  <div id="celebration" class="celebration" aria-hidden="true"></div>
+  <noscript><p style="padding:2rem">Please enable JavaScript to open your surprise, Adi. ♡</p></noscript>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
